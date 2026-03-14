@@ -45,14 +45,6 @@ namespace AvaloniaApplication1
             return foundX;
         }
 
-        private void TextBox_KeyDown(object? sender, KeyEventArgs e)
-        {
-            if (e.Key == Key.Enter)
-            {
-                GetX();
-            }
-        }
-
         private void FindX(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
             PrintX.Text = GetX();
