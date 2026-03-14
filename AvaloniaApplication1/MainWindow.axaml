@@ -1,0 +1,27 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication1.MainWindow"
+        Title="РешуКвадратноеУравнение">
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" >
+            <TextBlock Text="a: " Width="10"/>
+            <TextBox Name="TextFiled" Width="10"/>
+            <TextBlock Text="b: " Width="10"/>
+            <TextBox Name="TextFiled2" Width="10"/>
+            <TextBlock Text="c: " Width="10"/>
+            <TextBox Name="TextFiled3"  Width="10"/>
+
+            <StackPanel Orientation="Vertical" Width="100" Margin="30 0 0 0">
+                
+                <TextBlock Name="PrintX" Text="" HorizontalAlignment="Center" Width="200"/>
+                <Button Name="Button1" Content="Решить" Click="FindX"/>
+
+            </StackPanel>
+        </StackPanel>
+
+        
+
+</Window>
