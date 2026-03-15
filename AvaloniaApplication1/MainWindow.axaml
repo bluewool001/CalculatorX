@@ -6,7 +6,7 @@
         x:Class="AvaloniaApplication1.MainWindow"
         Title="РешуКвадратноеУравнение">
 
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" >
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="700" >
             <TextBlock Text="a: " Width="10"/>
             <TextBox Name="TextFiled" Width="10"/>
             <TextBlock Text="b: " Width="10"/>
@@ -18,8 +18,13 @@
                 
                 <TextBlock Name="PrintX" Text="" HorizontalAlignment="Center" Width="200"/>
                 <Button Name="Button1" Content="Решить" Click="FindX"/>
-
+                
             </StackPanel>
+
+            <StackPanel>
+                <Button Name="Leave" Content="Выйти" Click="Exit"/>
+            </StackPanel>
+
         </StackPanel>
 
         

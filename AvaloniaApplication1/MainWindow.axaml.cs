@@ -27,7 +27,7 @@ namespace AvaloniaApplication1
 
             if (D < 0)
             {
-           
+
                 return "Корней нет";
             }
 
@@ -48,6 +48,11 @@ namespace AvaloniaApplication1
         private void FindX(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
             PrintX.Text = GetX();
+        }
+
+        private void Exit(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
