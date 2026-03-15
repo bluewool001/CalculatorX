@@ -15,7 +15,7 @@
             <TextBox Name="TextFiled3"  Width="10"/>
 
             <StackPanel Orientation="Vertical" Width="100" Margin="30 0 0 0">
-                <TextBlock Name="PrintX" Text="" HorizontalAlignment="Center" Width="200"/>
+                <TextBlock Name="PrintX" Text="" HorizontalAlignment="Center" Width="200" TextWrapping="Wrap"/>
                 <Button Name="Button1" Content="Решить" Click="FindX"/>
             </StackPanel>
 

@@ -27,8 +27,12 @@ namespace AvaloniaApplication1
 
             if (D < 0)
             {
-
                 return "Корней нет";
+            }
+
+            else if (a == 0)
+            {
+                return "Это не квадратное уравнение";
             }
 
             if (D == 0)
